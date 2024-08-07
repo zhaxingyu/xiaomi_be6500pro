@@ -23,6 +23,10 @@ curl -k -O https://raw.githubusercontent.com/zhaxingyu/xiaomi_be6500pro/main/cha
 chmod +x change_opkg_sources.sh
 sh change_opkg_sources.sh install
 ```
+刷新软件包列表
+```bash
+opkg update
+```
 卸载
 ```bash
 sh /data/scripts/change_opkg_sources.sh uninstall
