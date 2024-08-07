@@ -11,7 +11,7 @@ chmod +x auto_overlay.sh
 sh auto_overlay.sh install
 reboot
 ```
-卸载
+（卸载）
 ```bash
 sh /data/scripts/auto_overlay.sh uninstall
 ```
@@ -27,7 +27,7 @@ sh change_opkg_sources.sh install
 ```bash
 opkg update
 ```
-卸载
+（卸载）
 ```bash
 sh /data/scripts/change_opkg_sources.sh uninstall
 ```
@@ -36,7 +36,7 @@ sh /data/scripts/change_opkg_sources.sh uninstall
 ```bash
 curl -k https://raw.githubusercontent.com/zhaxingyu/xiaomi_be6500pro/main/ctemp_overlaybase.sh | sh
 ```
-卸载
+（卸载）
 ```bash
 rm /usr/bin/ctemp
 ```
@@ -49,7 +49,7 @@ curl -k -O https://raw.githubusercontent.com/zhaxingyu/xiaomi_be6500pro/main/cte
 chmod +x ctemp.sh
 sh ctemp.sh install
 ```
-卸载
+（卸载）
 ```bash
 sh /data/scripts/ctemp.sh uninstall
 ```
