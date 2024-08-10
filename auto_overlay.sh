@@ -1,6 +1,6 @@
 #!/bin/sh
 script_dir="/data/scripts"
-overlay_dir="/data/other/overlay"
+overlay_dir="/data/other_vol/overlay"
 overlay_mount_point="/overlay"
 
 mount_overlay() {
