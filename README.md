@@ -43,8 +43,8 @@ sh change_opkg_sources.sh install
 mkdir -p /data/scripts
 cd /data/scripts
 curl -k -O https://raw.githubusercontent.com/zhaxingyu/xiaomi_be6500pro/main/change_opkg_sources_cn.sh
-chmod +x change_opkg_sources.sh
-sh change_opkg_sources.sh install
+chmod +x change_opkg_sources_cn.sh
+sh change_opkg_sources_cn.sh install
 ```
 刷新软件包列表
 ```bash
