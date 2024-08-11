@@ -30,10 +30,19 @@ reboot
 sh /data/scripts/auto_overlay.sh uninstall
 ```
 ##  3.更换软件源
+官方源
 ```bash
 mkdir -p /data/scripts
 cd /data/scripts
 curl -k -O https://raw.githubusercontent.com/zhaxingyu/xiaomi_be6500pro/main/change_opkg_sources.sh
+chmod +x change_opkg_sources.sh
+sh change_opkg_sources.sh install
+```
+镜像源
+```bash
+mkdir -p /data/scripts
+cd /data/scripts
+curl -k -O https://raw.githubusercontent.com/zhaxingyu/xiaomi_be6500pro/main/change_opkg_sources_cn.sh
 chmod +x change_opkg_sources.sh
 sh change_opkg_sources.sh install
 ```
